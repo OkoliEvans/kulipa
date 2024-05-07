@@ -1,0 +1,3 @@
+[submodule "contract/kulipa/lib/forge-std"]
+	path = contract/kulipa/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
