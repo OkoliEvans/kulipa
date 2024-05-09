@@ -1,0 +1,41 @@
+specVersion: 1.0.0
+indexerHints:
+  prune: auto
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum
+    name: Kulipay
+    network: base-sepolia
+    source:
+      address: "0xE0Bb821fEced4cd10206445e69959175d2b86884"
+      abi: Kulipay
+      startBlock: 9699673
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.7
+      language: wasm/assemblyscript
+      entities:
+        - BuyGoods
+        - FundWithEth
+        - FundWithUSDC
+        - FundWithUSDT
+        - OwnershipTransferred
+        - PayBill
+      abis:
+        - name: Kulipay
+          file: ./abis/Kulipay.json
+      eventHandlers:
+        - event: BuyGoods(uint256,uint256,address)
+          handler: handleBuyGoods
+        - event: FundWithEth(uint256,uint256,address)
+          handler: handleFundWithEth
+        - event: FundWithUSDC(uint256,uint256,address)
+          handler: handleFundWithUSDC
+        - event: FundWithUSDT(uint256,uint256,address)
+          handler: handleFundWithUSDT
+        - event: OwnershipTransferred(indexed address,indexed address)
+          handler: handleOwnershipTransferred
+        - event: PayBill(uint256,uint256,address)
+          handler: handlePayBill
+      file: ./src/kulipay.ts
