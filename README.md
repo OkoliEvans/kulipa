@@ -1,4 +1,4 @@
-# kulipa
+# kulipay
 ## A decentralized finance network for processing payments to M-Pesa using crypto. <br>
 
 Kulipa provides an easy system for performing transactions to Mpesa accounts directly from your crypto wallets.
