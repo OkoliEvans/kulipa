@@ -40,4 +40,4 @@ Kulipay token address on Base Sepolia: **0x0ABfaa36626E589D5D55a92F02e3cBbF950A8
 
 <br>
 
-**Note:** USDT pricefeed does not update USDT price on Kulipay for now as the price oracle is down or broken. Live price update will pick up automatically once Chainlink has fixed the price oracle.
+**Note:** Pricefeed oracle does not update USDT price on Kulipay for now as the price oracle is down or broken. Live price update will pick up automatically once Chainlink has fixed the price oracle.
