@@ -1,0 +1,8 @@
+{
+  "base-sepolia": {
+    "Kulipay": {
+      "address": "0x526D8d708f0B67644626baF639926bFA74Fc3eb7",
+      "startBlock": 9699673
+    }
+  }
+}

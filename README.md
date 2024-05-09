@@ -10,6 +10,7 @@ delays or other issues that might take days to be settled by the escrow platform
 Kulipay brings a new total flex, as users can perform seamless transactions with just one or two click of the button. <br>
 
 <br>
+
 ## How to use
 
 **fund Mpesa Account**: This sends the Ksh equivalent of the sent token to the desired Mpesa account. Users can fund accounts using either of USDT, USDC or Ether. <br>
@@ -31,5 +32,8 @@ In the coming versions, other services such as medical bills, insurance, travels
 The Kulipay team is making the Kulipay code base open source following the old web3 tradition, hence we implore all developers and non developers alike who finds any buys, has any feedbacks or suggestions to open an issue, or make a pull request with the improved code or correction. 
 
 <br>
-Kulipay contract address on Base Sepolia: **0xE0Bb821fEced4cd10206445e69959175d2b86884** <br>
+
+Kulipay contract address on Base Sepolia: **0xE0Bb821fEced4cd10206445e69959175d2b86884**
+<br>
+
 Kulipay token address on Base Sepolia: **0x0ABfaa36626E589D5D55a92F02e3cBbF950A8ce2**
