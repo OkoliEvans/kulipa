@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -18,4 +19,8 @@
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
   "exclude": ["node_modules"]
+=======
+  "extends": "@graphprotocol/graph-ts/types/tsconfig.base.json",
+  "include": ["src", "tests"]
+>>>>>>> 19b5ccef129540971da22d93e45e138f091afaa3
 }

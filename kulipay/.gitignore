@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -21,10 +22,24 @@
 *.pem
 
 # debug
+=======
+# Graph CLI generated artifacts
+build/
+generated/
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Logs
+logs
+*.log
+>>>>>>> 19b5ccef129540971da22d93e45e138f091afaa3
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+<<<<<<< HEAD
 # local env files
 .env*.local
 
@@ -34,3 +49,24 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+=======
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables file
+.env
+
+# Testing
+coverage
+coverage.json
+
+# Typechain
+typechain
+typechain-types
+
+# Hardhat files
+cache
+>>>>>>> 19b5ccef129540971da22d93e45e138f091afaa3

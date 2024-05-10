@@ -1,0 +1,58 @@
+type BuyGoods @entity(immutable: true) {
+  id: Bytes!
+  tillNumber: BigInt! # uint256
+  amount: BigInt! # uint256
+  payer: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type FundWithEth @entity(immutable: true) {
+  id: Bytes!
+  mpesaAccount: BigInt! # uint256
+  amount: BigInt! # uint256
+  payer: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type FundWithUSDC @entity(immutable: true) {
+  id: Bytes!
+  mpesaAccount: BigInt! # uint256
+  amount: BigInt! # uint256
+  payer: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type FundWithUSDT @entity(immutable: true) {
+  id: Bytes!
+  mpesaAccount: BigInt! # uint256
+  amount: BigInt! # uint256
+  payer: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type OwnershipTransferred @entity(immutable: true) {
+  id: Bytes!
+  previousOwner: Bytes! # address
+  newOwner: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type PayBill @entity(immutable: true) {
+  id: Bytes!
+  billNumber: BigInt! # uint256
+  amount: BigInt! # uint256
+  payer: Bytes! # address
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
