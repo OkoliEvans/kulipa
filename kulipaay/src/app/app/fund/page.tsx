@@ -41,7 +41,7 @@ export default function Home() {
 
 
 
-export function CardWithForm() {
+ function CardWithForm() {
     return (
         <Card className=" w-1/2">
             <CardHeader>
