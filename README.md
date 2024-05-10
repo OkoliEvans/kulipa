@@ -1,4 +1,4 @@
-# kulipa
+# kulipay
 ## A decentralized finance network for processing payments to M-Pesa using crypto. <br>
 
 Kulipa provides an easy system for performing transactions to Mpesa accounts directly from your crypto wallets.
@@ -37,3 +37,7 @@ Kulipay contract address on Base Sepolia: **0xE0Bb821fEced4cd10206445e69959175d2
 <br>
 
 Kulipay token address on Base Sepolia: **0x0ABfaa36626E589D5D55a92F02e3cBbF950A8ce2**
+
+<br>
+
+**Note:** Pricefeed oracle does not update USDT price on Kulipay for now as the price oracle is down or broken. Live price update will pick up automatically once Chainlink has fixed the price oracle.
