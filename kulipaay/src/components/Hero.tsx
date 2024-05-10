@@ -13,7 +13,7 @@ export function Hero() {
   return (
     <Container className="pb-16 pt-20 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
-        Decentralized exchange for
+        Decentralized payment system for
         {' '}
         <span className="relative whitespace-nowrap text-blue-600">
           <svg
@@ -26,7 +26,7 @@ export function Hero() {
           </svg>
           <span className="relative">M-Pessa</span>
         </span>{' '}
-        and one-click crypto market.
+        using crypto.
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
       Say goodbye to the hassles of traditional peer-to-peer platforms and escrow services. With Kulipay, you can send funds, purchase goods, and settle bills directly from your crypto wallet to your M-Pesa account, all in just a few clicks.
